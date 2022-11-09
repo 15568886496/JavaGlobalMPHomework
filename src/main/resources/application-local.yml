@@ -1,6 +1,0 @@
-spring:
-  redis:
-    port: 49154
-    host: localhost
-    username: default
-    password: redispw
