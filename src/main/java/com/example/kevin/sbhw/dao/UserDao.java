@@ -12,4 +12,6 @@ public interface UserDao extends JpaRepository<User,Integer>, Serializable {
   @Query(value = "select * from t_user where user_name = ?1", nativeQuery = true)
   User getUserInfoByName(String name);
 
+  User findAllByUserName(String name);
+
 }
